@@ -1,0 +1,198 @@
+{
+    "game": {
+        "id": "11b68fa9-eeda-4071-bc22-f64bcdf1e99e",
+        "ruleset": {
+            "name": "standard",
+            "version": "v1.2.3",
+            "settings": {
+                "foodSpawnChance": 15,
+                "minimumFood": 1,
+                "hazardDamagePerTurn": 0,
+                "hazardMap": "",
+                "hazardMapAuthor": "",
+                "royale": {
+                    "shrinkEveryNTurns": 0
+                },
+                "squad": {
+                    "allowBodyCollisions": false,
+                    "sharedElimination": false,
+                    "sharedHealth": false,
+                    "sharedLength": false
+                }
+            }
+        },
+        "map": "standard",
+        "timeout": 500,
+        "source": "custom"
+    },
+    "turn": 22,
+    "board": {
+        "height": 11,
+        "width": 11,
+        "snakes": [
+            {
+                "id": "gs_YFQgFCrxrKHhFkQFSWywSdSK",
+                "name": "Maxine the Mule",
+                "latency": "45",
+                "health": 94,
+                "body": [
+                    {
+                        "x": 8,
+                        "y": 6
+                    },
+                    {
+                        "x": 8,
+                        "y": 7
+                    },
+                    {
+                        "x": 8,
+                        "y": 8
+                    },
+                    {
+                        "x": 7,
+                        "y": 8
+                    },
+                    {
+                        "x": 7,
+                        "y": 9
+                    }
+                ],
+                "head": {
+                    "x": 8,
+                    "y": 6
+                },
+                "length": 5,
+                "shout": "",
+                "squad": "",
+                "customizations": {
+                    "color": "#6c25be",
+                    "head": "caffeine",
+                    "tail": "nr-booster"
+                }
+            },
+            {
+                "id": "gs_8C6TmBF4K9yQKMyG3vSwCVvQ",
+                "name": "Hungry Bot",
+                "latency": "1",
+                "health": 90,
+                "body": [
+                    {
+                        "x": 7,
+                        "y": 5
+                    },
+                    {
+                        "x": 6,
+                        "y": 5
+                    },
+                    {
+                        "x": 6,
+                        "y": 6
+                    },
+                    {
+                        "x": 6,
+                        "y": 7
+                    },
+                    {
+                        "x": 5,
+                        "y": 7
+                    }
+                ],
+                "head": {
+                    "x": 7,
+                    "y": 5
+                },
+                "length": 5,
+                "shout": "",
+                "squad": "",
+                "customizations": {
+                    "color": "#00cc00",
+                    "head": "alligator",
+                    "tail": "alligator"
+                }
+            },
+            {
+                "id": "gs_R3bQFtfM6p3773x8hQkk8mfM",
+                "name": "Scared Bot",
+                "latency": "1",
+                "health": 78,
+                "body": [
+                    {
+                        "x": 10,
+                        "y": 8
+                    },
+                    {
+                        "x": 9,
+                        "y": 8
+                    },
+                    {
+                        "x": 9,
+                        "y": 7
+                    }
+                ],
+                "head": {
+                    "x": 10,
+                    "y": 8
+                },
+                "length": 3,
+                "shout": "",
+                "squad": "",
+                "customizations": {
+                    "color": "#000000",
+                    "head": "bendr",
+                    "tail": "curled"
+                }
+            }
+        ],
+        "food": [
+            {
+                "x": 10,
+                "y": 4
+            },
+            {
+                "x": 8,
+                "y": 0
+            }
+        ],
+        "hazards": []
+    },
+    "you": {
+        "id": "gs_YFQgFCrxrKHhFkQFSWywSdSK",
+        "name": "Maxine the Mule",
+        "latency": "45",
+        "health": 94,
+        "body": [
+            {
+                "x": 8,
+                "y": 6
+            },
+            {
+                "x": 8,
+                "y": 7
+            },
+            {
+                "x": 8,
+                "y": 8
+            },
+            {
+                "x": 7,
+                "y": 8
+            },
+            {
+                "x": 7,
+                "y": 9
+            }
+        ],
+        "head": {
+            "x": 8,
+            "y": 6
+        },
+        "length": 5,
+        "shout": "",
+        "squad": "",
+        "customizations": {
+            "color": "#6c25be",
+            "head": "caffeine",
+            "tail": "nr-booster"
+        }
+    }
+}
