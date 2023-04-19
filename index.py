@@ -1,24 +1,28 @@
 from flask import Flask
 
+app = Flask("Battlesnake")
 
-app = Flask(__name__)
+@app.get('/')
+def on_info():
+    print("INFO")
+    return {
+        "apiversion": "1",
+        "author": "",  # TODO: Your Battlesnake Username
+        "color": "#888888",  # TODO: Choose color
+        "head": "default",  # TODO: Choose head
+        "tail": "default",  # TODO: Choose tail
+    }
 
+@app.post("/start")
+def on_start():
+    print("GAME START")
+    return "ok"
 
-@app.route('/')
-def home():
-    return 'Home Page Route'
+@app.post("/move") # this is the logic
+def on_move():
+    return {"move": "up"}
 
-
-@app.route('/about')
-def about():
-    return 'About Page Route'
-
-
-@app.route('/portfolio')
-def portfolio():
-    return 'Portfolio Page Route'
-
-
-@app.route('/contact')
-def contact():
-    return 'Contact Page Route'
+@app.post("/end")
+def on_end():
+    print("GAME END")
+    return "ok"
