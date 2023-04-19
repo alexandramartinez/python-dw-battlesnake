@@ -7,10 +7,10 @@ def on_info():
     print("INFO")
     return {
         "apiversion": "1",
-        "author": "",  # TODO: Your Battlesnake Username
-        "color": "#888888",  # TODO: Choose color
-        "head": "default",  # TODO: Choose head
-        "tail": "default",  # TODO: Choose tail
+        "author": "alexandramartinez",  
+        "color": "#6c25be",
+        "head": "caffeine",
+        "tail": "nr-booster",
     }
 
 @app.post("/start")
