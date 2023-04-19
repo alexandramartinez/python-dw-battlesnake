@@ -8,9 +8,9 @@ def on_info():
     return {
         "apiversion": "1",
         "author": "alexandramartinez",  
-        "color": "#6c25be",
-        "head": "caffeine",
-        "tail": "nr-booster",
+        "color": "#00ccff",
+        "head": "singer",
+        "tail": "rocket",
     }
 
 @app.post("/start")
