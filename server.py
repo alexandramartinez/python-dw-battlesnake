@@ -44,3 +44,9 @@ def run_server(handlers: typing.Dict):
 
     print(f"\nRunning Battlesnake at http://{host}:{port}")
     app.run(host=host, port=port)
+
+# Start server when `python main.py` is run
+if __name__ == "__main__":
+    from server import run_server
+
+    run_server({"info": info, "start": start, "move": move, "end": end})
